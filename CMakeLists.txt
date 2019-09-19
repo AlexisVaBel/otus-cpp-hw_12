@@ -17,7 +17,7 @@ include_directories(".")
 include_directories("src_async")
 include_directories("serv")
 include_directories(${Boost_INCLUDE_DIR})
-link_directories(./lib)
+link_directories(/usr/lib)
 
 add_executable(${PROJECT_NAME} main.cpp server/session.cpp server/server.cpp)
 
